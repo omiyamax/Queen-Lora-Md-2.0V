@@ -1,8 +1,8 @@
 {
-  "name": "Gojo-Satoru",
+  "name": "Queen-Lora-Md",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/nexusNw/Gojo-Satoru",
-  "logo": "https://telegra.ph/file/4c2c0174e86ac3bac2ba8.jpg",
+  "repository": "https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V",
+  "logo": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
