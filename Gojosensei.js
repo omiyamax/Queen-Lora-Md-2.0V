@@ -202,11 +202,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -2099,7 +2099,9 @@ break
 🐦 Channel : ${anu.author.url}
 🐦 Description : ${anu.description}
 🐦 Url : ${anu.url}`,
-                    footer: GojoMdNx.user.name,
+                    footer: 
+
+GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3380,7 +3382,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Shashi burina thaicho🎉
+┌┤✑  𝘘𝘜𝘌𝘌𝘕 𝘓𝘖𝘙𝘈 𝘔𝘋 2.0𝘷🎉
 ││✑  🐦🖐️!!
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
@@ -3397,22 +3399,22 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🖥️',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
+                                displayText: 'Script☃',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '👑All Menu👑',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '📙List Menu📙',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -3441,7 +3443,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Daijobka sempai?😄
+┌┤✑  𝘘𝘜𝘌𝘌𝘕 𝘓𝘖𝘙𝘈 𝘔𝘋 2.0𝘷😄
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3467,17 +3469,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu🎉',
+                                    displayText: 'All Menu📙',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu⭐',
+                                    displayText: 'List Menu👑',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🐦',
+                                    displayText: '👤Owner🧖',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3496,7 +3498,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Main Features",
+								"title": "👑Main Features👑",
 								"rows": [
 									{
 										"title": "Main Menu",
@@ -3506,90 +3508,90 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Bot Features",
+								"title": "Bot Features🏮",
 								"rows": [
 									{
-										"title": "All Menu",
+										"title": "All Menu📃",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu",
+										"title": "Owner Menu📄",
 										"description": "Displays The List Of Owner Features",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu",
+										"title": "Group Menu📑",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
 									{
-										"title": "Rpg Menu",
+										"title": "Rpg Menu🧾",
 										"description": "Displays The List Of Rpg Features",
 										"rowId": `${prefix}rpgmenu`
 									},
 									{
-										"title": "Download Menu",
+										"title": "Download Menu📥",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Search Menu",
+										"title": "Search Menu🏷️",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-											"title": "Random Menu",
+											"title": "Random Menu🧾",
 										"description": "Displays The List Of Random Features",
 										"rowId": `${prefix}randommenu`
 										},
 										{
-											"title": "Random Anime Menu",
+											"title": "Random Anime Menu🧾",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}randomanimemenu`
 										},
 										{
-											"title": "Fun Menu",
+											"title": "Fun Menu📰",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-											"title": "Convert Menu",
+											"title": "Convert Menu📋",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu",
+											"title": "Database Menu📖",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-											"title": "Voice Changer Menu",
+											"title": "Voice Changer Menu📜",
 										"description": "Displays The List Of Voice Changing Features",
 										"rowId": `${prefix}voicechangermenu`
 										},
 										{
-											"title": "TXT-to-IMG Menu",
+											"title": "TXT-to-IMG Menu📃",
 										"description": "Displays The List Of Textpro Features",
 										"rowId": `${prefix}textpromenu`
 										},
 										{
-											"title": "Islamic Menu",
+											"title": "Islamic Menu📕",
 										"description": "Displays The List Of Islamic Features",
 										"rowId": `${prefix}islamicmenu`
 										},
 										{
-											"title": "Horoscope Menu",
+											"title": "Horoscope Menu📃",
 										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}horoscopemenu`
 										}
 								]
 							},
 							{
-								"title": "Chat With Fellow Users",
+								"title": "Chat With Follow Users",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu",
+										"title": "Anonymous Chat Menu✉️",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymouschatmenu`
 									}
@@ -3599,7 +3601,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Credit",
 								"rows": [
 									{
-										"title": "Thanks To",
+										"title": "Thanks To📧",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
@@ -3617,12 +3619,12 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/nexusNw/Gojo-Satoru\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : https://github.com/OMINDUANJANA/Gojo-Satoru\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
             }
             break
 case 'allmenu': {
   	anu = `
-┏━「 *${botname}* 」━━⭓ 
+┏━「 *𝗤𝗨𝗘𝗘𝗡 𝗟𝗢𝗥𝗔 𝗠𝗗 2.0𝘃* 」━━⭓ 
 ┃╔══☯︎「 MAIN 」☯︎
 ┃╠ ${prefix}alive
 ┃╠ ${prefix}script
@@ -3848,8 +3850,8 @@ case 'allmenu': {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝑁𝑒𝑥𝑢𝑠𝑁𝑤
-┗━「 *Created By ${ownername}*  𖠌」━⭓`
+┃╚═══════✍︎𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰
+┗━「 *Created By 𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -3877,7 +3879,7 @@ break
 case 'mainmenu':
 var unicorn = await getBuffer(picak+'Main Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚅 」━━⭓ 
 ┃╔═✪「 MAIN 」
 ┃╠ ${prefix}alive
 ┃╠ ${prefix}script
@@ -3899,7 +3901,7 @@ break
 case 'grupmenu': case 'groupmenu':
 var unicorn = await getBuffer(picak+'Group Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔═✪「 GROUP 」	        
 ┃╠${prefix}grouplink
 ┃╠${prefix}ephemeral [option]
@@ -3928,7 +3930,7 @@ break
 case 'rpgmenu':
 var unicorn = await getBuffer(picak+'Rpg Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚅 」━━⭓ 
 ┃╔═✪「 RPG 」	        
 ┃╠${prefix}hunting
 ┃╠${prefix}mining
@@ -3946,7 +3948,7 @@ break
 case 'funmenu':
 var unicorn = await getBuffer(picak+'Fun Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔═✪「 FUN 」	        
 ┃╠ ${prefix}how [text
 ┃╠ ${prefix}when [text]
@@ -3999,7 +4001,7 @@ break
 case 'ownermenu':
 var unicorn = await getBuffer(picak+'Owner Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔═✪「 OWNER 」	        
 ┃╠${prefix}grouplink
 ┃╠${prefix}ephemeral [option]
@@ -4027,7 +4029,7 @@ break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳2.0𝚟 」━━⭓ 
 ┃╔═✪「 DOWNLOADER 」	        
 ┃╠${prefix}ytmp3 [url|quality]
 ┃╠${prefix}ytmp4 [url|quality]
@@ -4042,7 +4044,7 @@ break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔══✪「 SEARCHER 」	        
 ┃╠${prefix}play [query]
 ┃╠${prefix}song [query]
@@ -4061,7 +4063,7 @@ break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔══✪「 RANDOM 」	        
 ┃╠${prefix}coffee
 ┃╠${prefix}animequote (indo)
@@ -4072,7 +4074,7 @@ break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔✪「 RANDOM ANIME 」	        
 ┃╠${prefix}loli
 ┃╠${prefix}bully
@@ -4107,7 +4109,7 @@ break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔═✪「 TEXT PRO 」	        
 ┃╠ ${prefix}3dchristmas [txt]
 ┃╠ ${prefix}3ddeepsea [txt]
@@ -4146,7 +4148,7 @@ break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔══✪「 CONVERTER 」	        
 ┃╠ ${prefix}toimage [reply stick]
 ┃╠ ${prefix}sticker [reply img|gif]
@@ -4165,7 +4167,7 @@ break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔═══✪「 DATABASE 」	        
 ┃╠ ${prefix}setcmd
 ┃╠ ${prefix}listcmd
@@ -4181,7 +4183,7 @@ break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔══✪「 ANONYMOUS CHAT 」	        
 ┃╠${prefix}anonymous
 ┃╠${prefix}start
@@ -4193,7 +4195,7 @@ break
 case 'islamicmenu':
 var unicorn = await getBuffer(picak+'Islamic Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔══✪「 ISLAMIC 」	        
 ┃╠${prefix}juzamma
 ┃╚═════════════✪
@@ -4202,7 +4204,7 @@ break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔══✪「 VOICE CHANGER 」	        
 ┃╠${prefix}bass [reply aud]
 ┃╠${prefix}blown [reply aud]
@@ -4221,7 +4223,7 @@ break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
+┏━「 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
 ┃╔══✪「 HOROSCOPE 」	        
 ┃╠${prefix}nomorhoki (indo)
 ┃╠${prefix}artimimpi (indo)
