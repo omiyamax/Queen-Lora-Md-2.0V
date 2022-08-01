@@ -20,8 +20,8 @@ global.APIKeys = {
 
 //customize settings\\
 global.owner = ['94760510568']
-global.premium = ['94760510568']
-global.ownernomer = '94760510568'
+global.premium = ['94707104949']
+global.ownernomer = '94707104949'
 global.ownername = 'Omindu Anjana'
 global.botname = 'Queen Lora Md 2.0v'
 global.footer = 'Queen Lora Md 2.0v.'
@@ -31,7 +31,7 @@ global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
 global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
 global.packname = 'Gojo-Satoru'
 global.author = 'Omindu Anjana'
-global.sessionName = 'session.lora'
+global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
