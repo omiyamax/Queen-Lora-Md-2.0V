@@ -25,26 +25,26 @@ global.ownernomer = '94707104949'
 global.ownername = 'Omindu Anjana'
 global.botname = 'Queen Lora Md 2.0v'
 global.footer = 'Queen Lora Md 2.0v.'
-global.ig = 'https://github.com/nexusNw'
+global.ig = 'https://github.com/OMINDUANJANA'
 global.region = 'Sri Lanka, Monaragala,Badalkumbura,'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
+global.sc = 'https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0v'
 global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
+global.packname = '𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳'
 global.author = 'Omindu Anjana'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    admin: 'මේ Feature වැඩකරන්නේ admin ට විතරයි!',
+    botAdmin: 'ඉස්සෙල්ලා ම bot ව admin කරන්න!',
+    owner: 'මේ Feature වැඩකරන්නේ අයිතිකරු ට පමනි.',
+    group: 'මේ Feature වැඩකරන්නේ group එකට විතරයි',
+    private: 'මේ Features private chat කරන්න විතරයි!',
+    bot: 'මේ Feature වැඩකරන්නේ bot ට පමණි.',
+    wait: 'පොඩ්ඩක් වෙලා ඉන්න...',
+    error: 'Error! එකක් ඔයාගේ Api එක කල්ඉකුත් වී ඇත. 🤔!',
+    endLimit: 'අද දවසේ බොට් පාවිච්චී කිරිමේ කාලය කල්ඉකුත් වී ඇත., The Limit Will Be Reset Every 12 Hours',
 }
     global.limitawal = {
     premium: "Infinity",
