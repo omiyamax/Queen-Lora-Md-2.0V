@@ -139,6 +139,4 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * [`AflahXrd`](https://github.com/nexusNw)
 
 
-License: [MIT](https://github.com/Queen-Lora-Md-2.0V
-
-/LICENSE)
+License: [MIT](https://github.com/Queen-Lora-Md-2.0V/LICENSE)
