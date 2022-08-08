@@ -10,6 +10,17 @@
     "94760510568-1632759248@g.us": {
       "mute": false,
       "antilink": false
+      "admin": true
+      "owner": true
+    }
+  },
+  "chats": {
+    "94741467999-1632759248@g.us": {
+      "chats": false
+      "chat": false
+      "antilink": true
+      "mute": true
+      "antiban": true
     }
   },
   "database": {},
