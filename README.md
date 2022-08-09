@@ -137,8 +137,8 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * [`Alien-Alfa`](https://github.com/Alien-Alfa)
 * [`DGXeon`](https://github.com/DGXeon)
 * [`AflahXrd`](https://github.com/nexusNw)
-* [`Lakidu`] 
-* [`Kavindu`]
+* `Lakidu`
+* `Kavindu`
 
 
 License: [MIT](https://github.com/Queen-Lora-Md-2.0V/LICENSE)
