@@ -1,5 +1,5 @@
 <p align="center">
-<img src="loramedia/queenlora.jpg" alt="lora" width="350"/>
+<img src="loramedia/lora.jpg" alt="lora" width="350"/>
 </p>
 
 ## 𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳
