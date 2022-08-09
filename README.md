@@ -16,9 +16,9 @@
 </br>
 
 <a href="https://github.com/nexusNw"><img title="Author" src="https://img.shields.io/badge/Author-Seta-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
-<a href="https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V.git"><img title="Stars" src="https://img.shields.io/github/stars/nexusNw/Gojo-Satoru?color=54aeff&style=flat-square" /></a>
-<a href="https://github.com/nexusNw/Gojo-Satoru/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nexusNw/Gojo-Satoru?color=54aeff&style=flat-square" /></a>
-<a href="https://github.com/nexusNw/Gojo-Satoru/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nexusNw/Gojo-Satoru?label=watchers&color=54aeff&style=flat-square" /></a> <br>
+<a href="https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V.git"><img title="Stars" src="https://img.shields.io/github/stars/Queen-Lora-Md-2.0V?color=54aeff&style=flat-square" /></a>
+<a href="https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0v/network/members"><img title="Forks" src="https://img.shields.io/github/forks/OMINDUANJANA/Queen-Lora-Md-2.0V?color=54aeff&style=flat-square" /></a>
+<a href="https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/OMINDUANJANA/Queen-Lora-Md-2.0V?label=watchers&color=54aeff&style=flat-square" /></a> <br>
 
 ---
 
@@ -137,6 +137,8 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * [`Alien-Alfa`](https://github.com/Alien-Alfa)
 * [`DGXeon`](https://github.com/DGXeon)
 * [`AflahXrd`](https://github.com/nexusNw)
+* [`Lakidu`] 
+* [`Kavindu`]
 
 
 License: [MIT](https://github.com/Queen-Lora-Md-2.0V/LICENSE)
