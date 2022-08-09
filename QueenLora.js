@@ -153,9 +153,9 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
         const participants = m.isGroup ? await groupMetadata.participants : ''
         const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
         const groupOwner = m.isGroup ? groupMetadata.owner : ''
-    	const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
-    	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
-    	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
+    	const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : true
+    	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : true 
+    	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || true
 	    
         //member\\
         let picaks = [flaming,fluming,flarun,flasmurf]
@@ -190,10 +190,10 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	    if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
-		if (!('autobio' in setting)) setting.autobio = false
+		if (!('autobio' in setting)) setting.autobio = true 
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: false,
+		autobio: true,
 	    }
 	    
         } catch (err) {
@@ -229,7 +229,7 @@ const reply = (teks) => {
             console.log('Limit Reseted')
         }, {
             scheduled: true,
-            timezone: "Asia/Kolkata"
+            timezone: "Asia/srilanka"
         })
         
 	//auto set bio\\
@@ -245,8 +245,8 @@ const reply = (teks) => {
 	  //antilink\\
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
-        reply(`「 ANTI LINK 」\n\nYou have been detected sending a group link, sorry you will be kicked !`)
-        if (!isBotAdmins) return reply(`I Am Not An Admin, How Could I Kick Somebody Who Send Link 😒`)
+        reply(`「 ANTI LINK 」\n\nඔබ විසින් group එකට අනවශ්‍ය link දමා ඇත., සමවන්න මට ඔබව පලවා හැරීමට සිදුවේ!`)
+        if (!isBotAdmins) return reply(`මම admin කෙනෙකු නොවේ!, How Could I Kick Somebody Who Send Link 😒`)
         let gclink = (`https://chat.whatsapp.com/`+await GojoMdNx.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
