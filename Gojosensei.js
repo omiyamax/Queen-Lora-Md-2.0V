@@ -3615,14 +3615,14 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c15f725add0381fb69c4b.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V/GojoMedia/Gojo.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/OMINDUANJANA/Gojo-Satoru\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
             }
             break
-case 'allmenu': {
+case 'allmenu': case 'panel': case 'cmd': {
   	anu = `
 ┏━「 *👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟* 」━━⭓ 
 ┃╔══☯︎「 MAIN 」☯︎
@@ -3851,7 +3851,7 @@ case 'allmenu': {
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
 ┃╚═══════✍︎𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰
-┗━「 *Created By 𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰*  𖠌」━⭓`
+┗━「 *Created By* 𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -3876,7 +3876,7 @@ case 'allmenu': {
                 GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
             }
 break
-case 'mainmenu':
+case 'mainmenu': case 'mm':
 var unicorn = await getBuffer(picak+'Main Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚅 」━━⭓ 
@@ -3898,7 +3898,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
 
-case 'grupmenu': case 'groupmenu':
+case 'grupmenu': case 'groupmenu': case 'gmenu':
 var unicorn = await getBuffer(picak+'Group Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
@@ -3945,7 +3945,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
 
-case 'funmenu':
+case 'funmenu': case 'fmenu':
 var unicorn = await getBuffer(picak+'Fun Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
@@ -3998,7 +3998,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
 
-case 'ownermenu':
+case 'ownermenu': case 'owmenu':
 var unicorn = await getBuffer(picak+'Owner Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
@@ -4026,7 +4026,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
-case 'downloadmenu':
+case 'downloadmenu': case 'dmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳2.0𝚟 」━━⭓ 
@@ -4041,7 +4041,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
-case 'searchmenu':
+case 'searchmenu': case 'smenu':
 var unicorn = await getBuffer(picak+'Search Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
@@ -4145,7 +4145,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
-case 'convertmenu':
+case 'convertmenu': case 'cmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 」━━⭓ 
