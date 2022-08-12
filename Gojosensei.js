@@ -2250,11 +2250,11 @@ case 'lava': case 'rock': case 'bloodglas': case 'hallowen': case 'darkgold': ca
                 GojoMdNx.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname},For my Darling ` }, { quoted: m })
              }
              break
-            case 'drakorxxx': case 'fmovie':
+            case 'drakorxxx': case 'fmovie': case 'movie':
                 if (!text) return reply('What Are You Looking For??')
                 await reply(mess.wait)
                 nexusnw.Drakor(`${text}`).then(async data => {
-                    let txt = `*-----「 DRAKOR-SEARCH 」-----*\n\n`
+                    let txt = `*-----「 MOVIE-SEARCH 」-----*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*📆 Years :* ${i.years}\n`
@@ -3382,8 +3382,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝘷🎉
-││✑  🐦🖐️!!
+┌┤✑  👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳🎉
+││✑  👍🖐️!!
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3429,6 +3429,28 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
                 }
 break
+		
+	
+case 'owinfo': case 'ownerinfo': case 'owner':
+var unicorn = await getBuffer(picak+'Owner Info')
+await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
+┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 」━━⭓ 
+┃╔═✪「 Owner Info 」
+┃*Owner Name* : ${global.ownername}
+┃
+┃*Bot Name*   : ${global.botname}
+┃
+┃*Coder*      : ${global.ownername}
+┃
+┃*Owner School*: ${global.myschool}
+┃
+┃*Location*   : ${global.region}
+┃
+┃*Host Name*  : Queen Lora Md
+┃Thanks For Using *Queen Lora*
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube👍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "⚖️Location🛡️","text": `${region}`}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
+break
+		
             case 'list': case 'menu': {
             	timestampe = speed();
 latensie = speed() - timestampe
@@ -3443,7 +3465,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝘷😄
+┌┤✑  👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 👸
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3470,7 +3492,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                                 quickReplyButton: {
                                     displayText: 'All Menu📙',
-                                    id: `${prefix}allmenu`
+                                    id: `${prefix}panel`
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -3614,8 +3636,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
             }
             break
-    case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V/GojoMedia/Gojo.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+    case 'donasi': case 'donate': case 'lorabot': case 'sewa': {
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V/GojoMedia/gojo.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -4266,6 +4288,7 @@ Thanks to Me ( 𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰)
 DGXeon ( 45% Credits goes to him ,in this script)
 And Again Me (King 𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰 👑) 🐦 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
+	
             default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return reply(mess.owner)
