@@ -4301,7 +4301,740 @@ Thanks to Me ( 𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰)
 DGXeon ( 45% Credits goes to him ,in this script)
 And Again Me (King 𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰 👑) 🐦 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
-	
+
+	case 'listedu': case 'edux': case 'sledulist':
+nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Edu Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: `${global.footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "📕Education Menu📕",
+								"rows": [
+									{
+										"title": "Education Menu",
+										"description": "Displays The List Of Education Menu",
+										"rowId": `${prefix}edu`
+									}
+								]
+							},
+							{
+								"title": "📖Grades📖 ",
+								"rows": [
+									{
+										"title": "📚Grade 6📚",
+										"description": "Displays The List Of Grade 6 Subject Menu!",
+										"rowId": `${prefix}g6`
+									},
+									{
+										"title": "📚Grade 7📚",
+										"description": "Displays The List Of Grade 7 Subject Menu",
+										"rowId": `${prefix}g7`
+										},
+									{
+										"title": "📚Grade 8",
+										"description": "Displays The List Of Garade 8 Subject Menu",
+										"rowId": `${prefix}g8`
+									},
+									{
+										"title": "📚Grade 9📚",
+										"description": "Displays The List Of Grade 9 Subject Menu",
+										"rowId": `${prefix}g9`
+									},
+									{
+										"title": "📚Grade 10📚",
+										"description": "Displays The List Of Garde 10 Subject Menu",
+										"rowId": `${prefix}g10`
+									},
+									{
+											"title": "📚Grade 11📚",
+										"description": "Displays The List Of Grade 11 Subject Menu",
+										"rowId": `${prefix}g11`
+										},
+										{
+											"title": "📚Grade 13📚",
+										"description": "Displays The List Of Grade 13 Subject Menu",
+										"rowId": `${prefix}g13`
+										},
+							{
+								"title": "Thanks For Queen Lora User",
+								"rows": [
+									{
+										"title": "👸Thanks To👸",
+										"description": "Displays The List Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+			   
+	case 'g6':
+nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Grade 6 Subject Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: `${global.footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "📕Grade 6 Subjects📕",
+								"rows": [
+									{
+										"title": "Education Menu",
+										"description": "Displays The List Of Education Menu",
+										"rowId": `${prefix}listedu`
+									}
+								]
+							},
+							{
+								"title": "📗Subjects📗",
+								"rows": [
+									{
+										"title": "📚Sinhala📚",
+										"description": "Displays The List Of Subject Sinhala!",
+										"rowId": `${prefix}g6si`
+									},
+									{
+										"title": "📚Budhism📚",
+										"description": "Displays The List Of Subject Budhism",
+										"rowId": `${prefix}g6budi`
+										},
+									{
+										"title": "📚Mathematics📚",
+										"description": "Displays The List Of Subject Mathematics",
+										"rowId": `${prefix}g6math`
+									},
+									{
+										"title": "📚English📚",
+										"description": "Displays The List Of Subject English",
+										"rowId": `${prefix}g6en`
+									},
+									{
+										"title": "📚Science📚",
+										"description": "Displays The List Of Subject Science",
+										"rowId": `${prefix}g6sci`
+									},
+									{
+											"title": "📚Civic📚",
+										"description": "Displays The List Of Subject Civic",
+										"rowId": `${prefix}g6civi`
+										},
+										{
+											"title": "📚Gougraphy📚",
+										"description": "Displays The List Of Subject Gougraphy",
+										"rowId": `${prefix}g6gou`
+										},
+										{
+											"title": "📚P.T.S📚",
+										"description": "Displays The List Of Subject P.T S",
+										"rowId": `${prefix}g6pts`
+										},
+										{
+											"title": "📚Tamil📚",
+										"description": "Displays The List Of Subject Tamil",
+										"rowId": `${prefix}g6tami`
+										},
+										{
+											"title": "📚Health📚",
+										"description": "Displays The List Of Subject Health",
+										"rowId": `${prefix}g6heal`
+										},
+										{
+											"title": "📚I.C.T📚",
+										"description": "Displays The List Of Subject I.C.T",
+										"rowId": `${prefix}g6it`
+										},
+							{
+								"title": "Thanks For Queen Lora User",
+								"rows": [
+									{
+										"title": "👸Thanks To👸",
+										"description": "Displays The List Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+	    
+	case 'g7':
+nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Grade 6 Subject Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: `${global.footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "📕Grade 7 Subjects📕",
+								"rows": [
+									{
+										"title": "Education Menu",
+										"description": "Displays The List Of Education Menu",
+										"rowId": `${prefix}listedu`
+									}
+								]
+							},
+							{
+								"title": "📗Subjects📗",
+								"rows": [
+									{
+										"title": "📚Sinhala📚",
+										"description": "Displays The List Of Subject Sinhala!",
+										"rowId": `${prefix}g7si`
+									},
+									{
+										"title": "📚Budhism📚",
+										"description": "Displays The List Of Subject Budhism",
+										"rowId": `${prefix}g7budi`
+										},
+									{
+										"title": "📚Mathematics📚",
+										"description": "Displays The List Of Subject Mathematics",
+										"rowId": `${prefix}g7math`
+									},
+									{
+										"title": "📚English📚",
+										"description": "Displays The List Of Subject English",
+										"rowId": `${prefix}g7en`
+									},
+									{
+										"title": "📚Science📚",
+										"description": "Displays The List Of Subject Science",
+										"rowId": `${prefix}g7sci`
+									},
+									{
+											"title": "📚Civic📚",
+										"description": "Displays The List Of Subject Civic",
+										"rowId": `${prefix}g7civi`
+										},
+										{
+											"title": "📚Gougraphy📚",
+										"description": "Displays The List Of Subject Gougraphy",
+										"rowId": `${prefix}g7gou`
+										},
+										{
+											"title": "📚P.T.S📚",
+										"description": "Displays The List Of Subject P.T S",
+										"rowId": `${prefix}g7pts`
+										},
+										{
+											"title": "📚Tamil📚",
+										"description": "Displays The List Of Subject Tamil",
+										"rowId": `${prefix}g7tami`
+										},
+										{
+											"title": "📚Health📚",
+										"description": "Displays The List Of Subject Health",
+										"rowId": `${prefix}g7heal`
+										},
+										{
+											"title": "📚I.C.T📚",
+										"description": "Displays The List Of Subject I.C.T",
+										"rowId": `${prefix}g7it`
+										},
+							{
+								"title": "Thanks For Queen Lora User",
+								"rows": [
+									{
+										"title": "👸Thanks To👸",
+										"description": "Displays The List Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+	    
+	    
+	case 'g8':
+nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Grade 6 Subject Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: `${global.footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "📕Grade 8 Subjects📕",
+								"rows": [
+									{
+										"title": "Education Menu",
+										"description": "Displays The List Of Education Menu",
+										"rowId": `${prefix}listedu`
+									}
+								]
+							},
+							{
+								"title": "📗Subjects📗",
+								"rows": [
+									{
+										"title": "📚Sinhala📚",
+										"description": "Displays The List Of Subject Sinhala!",
+										"rowId": `${prefix}g8si`
+									},
+									{
+										"title": "📚Budhism📚",
+										"description": "Displays The List Of Subject Budhism",
+										"rowId": `${prefix}g8budi`
+										},
+									{
+										"title": "📚Mathematics📚",
+										"description": "Displays The List Of Subject Mathematics",
+										"rowId": `${prefix}g8math`
+									},
+									{
+										"title": "📚English📚",
+										"description": "Displays The List Of Subject English",
+										"rowId": `${prefix}g8en`
+									},
+									{
+										"title": "📚Science📚",
+										"description": "Displays The List Of Subject Science",
+										"rowId": `${prefix}g8sci`
+									},
+									{
+											"title": "📚Civic📚",
+										"description": "Displays The List Of Subject Civic",
+										"rowId": `${prefix}g8civi`
+										},
+										{
+											"title": "📚Gougraphy📚",
+										"description": "Displays The List Of Subject Gougraphy",
+										"rowId": `${prefix}g8gou`
+										},
+										{
+											"title": "📚P.T.S📚",
+										"description": "Displays The List Of Subject P.T S",
+										"rowId": `${prefix}g8pts`
+										},
+										{
+											"title": "📚Tamil📚",
+										"description": "Displays The List Of Subject Tamil",
+										"rowId": `${prefix}g8tami`
+										},
+										{
+											"title": "📚Health📚",
+										"description": "Displays The List Of Subject Health",
+										"rowId": `${prefix}g8heal`
+										},
+										{
+											"title": "📚I.C.T📚",
+										"description": "Displays The List Of Subject I.C.T",
+										"rowId": `${prefix}g8it`
+										},
+							{
+								"title": "Thanks For Queen Lora User",
+								"rows": [
+									{
+										"title": "👸Thanks To👸",
+										"description": "Displays The List Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+	    
+	case 'g9':
+nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Grade 9 Subject Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: `${global.footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "📕Grade 9 Subjects📕",
+								"rows": [
+									{
+										"title": "Education Menu",
+										"description": "Displays The List Of Education Menu",
+										"rowId": `${prefix}listedu`
+									}
+								]
+							},
+							{
+								"title": "📗Subjects📗",
+								"rows": [
+									{
+										"title": "📚Sinhala📚",
+										"description": "Displays The List Of Subject Sinhala!",
+										"rowId": `${prefix}g9si`
+									},
+									{
+										"title": "📚Budhism📚",
+										"description": "Displays The List Of Subject Budhism",
+										"rowId": `${prefix}g9budi`
+										},
+									{
+										"title": "📚Mathematics📚",
+										"description": "Displays The List Of Subject Mathematics",
+										"rowId": `${prefix}g9math`
+									},
+									{
+										"title": "📚English📚",
+										"description": "Displays The List Of Subject English",
+										"rowId": `${prefix}g9en`
+									},
+									{
+										"title": "📚Science📚",
+										"description": "Displays The List Of Subject Science",
+										"rowId": `${prefix}g9sci`
+									},
+									{
+											"title": "📚Civic📚",
+										"description": "Displays The List Of Subject Civic",
+										"rowId": `${prefix}g9civi`
+										},
+										{
+											"title": "📚Gougraphy📚",
+										"description": "Displays The List Of Subject Gougraphy",
+										"rowId": `${prefix}g9gou`
+										},
+										{
+											"title": "📚P.T.S📚",
+										"description": "Displays The List Of Subject P.T S",
+										"rowId": `${prefix}g9pts`
+										},
+										{
+											"title": "📚Tamil📚",
+										"description": "Displays The List Of Subject Tamil",
+										"rowId": `${prefix}g9tami`
+										},
+										{
+											"title": "📚Health📚",
+										"description": "Displays The List Of Subject Health",
+										"rowId": `${prefix}g9heal`
+										},
+										{
+											"title": "📚I.C.T📚",
+										"description": "Displays The List Of Subject I.C.T",
+										"rowId": `${prefix}g9it`
+										},
+							{
+								"title": "Thanks For Queen Lora User",
+								"rows": [
+									{
+										"title": "👸Thanks To👸",
+										"description": "Displays The List Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+	    
+	case 'g10':
+nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Grade 6 Subject Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: `${global.footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "📕Grade 10 Subjects📕",
+								"rows": [
+									{
+										"title": "Education Menu",
+										"description": "Displays The List Of Education Menu",
+										"rowId": `${prefix}listedu`
+									}
+								]
+							},
+							{
+								"title": "📗Subjects📗",
+								"rows": [
+									{
+										"title": "📚Sinhala📚",
+										"description": "Displays The List Of Subject Sinhala!",
+										"rowId": `${prefix}g10si`
+									},
+									{
+										"title": "📚Budhism📚",
+										"description": "Displays The List Of Subject Budhism",
+										"rowId": `${prefix}g10budi`
+										},
+									{
+										"title": "📚Mathematics📚",
+										"description": "Displays The List Of Subject Mathematics",
+										"rowId": `${prefix}g10math`
+									},
+									{
+										"title": "📚English📚",
+										"description": "Displays The List Of Subject English",
+										"rowId": `${prefix}g10en`
+									},
+									{
+										"title": "📚Science📚",
+										"description": "Displays The List Of Subject Science",
+										"rowId": `${prefix}g10sci`
+									},
+									{
+											"title": "📚Civic📚",
+										"description": "Displays The List Of Subject Civic",
+										"rowId": `${prefix}g10civi`
+										},
+										{
+											"title": "📚Gougraphy📚",
+										"description": "Displays The List Of Subject Gougraphy",
+										"rowId": `${prefix}g10gou`
+										},
+										{
+											"title": "📚P.T.S📚",
+										"description": "Displays The List Of Subject P.T S",
+										"rowId": `${prefix}g10pts`
+										},
+										{
+											"title": "📚Tamil📚",
+										"description": "Displays The List Of Subject Tamil",
+										"rowId": `${prefix}g10tami`
+										},
+										{
+											"title": "📚Health📚",
+										"description": "Displays The List Of Subject Health",
+										"rowId": `${prefix}g10heal`
+										},
+										{
+											"title": "📚I.C.T📚",
+										"description": "Displays The List Of Subject I.C.T",
+										"rowId": `${prefix}g10it`
+										},
+							{
+								"title": "Thanks For Queen Lora User",
+								"rows": [
+									{
+										"title": "👸Thanks To👸",
+										"description": "Displays The List Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+	    
+	 case 'g11':
+nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Grade 6 Subject Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: `${global.footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "📕Grade 11 Subjects📕",
+								"rows": [
+									{
+										"title": "Education Menu",
+										"description": "Displays The List Of Education Menu",
+										"rowId": `${prefix}listedu`
+									}
+								]
+							},
+							{
+								"title": "📗Subjects📗",
+								"rows": [
+									{
+										"title": "📚Sinhala📚",
+										"description": "Displays The List Of Subject Sinhala!",
+										"rowId": `${prefix}g11si`
+									},
+									{
+										"title": "📚Budhism📚",
+										"description": "Displays The List Of Subject Budhism",
+										"rowId": `${prefix}g11budi`
+										},
+									{
+										"title": "📚Mathematics📚",
+										"description": "Displays The List Of Subject Mathematics",
+										"rowId": `${prefix}g11math`
+									},
+									{
+										"title": "📚English📚",
+										"description": "Displays The List Of Subject English",
+										"rowId": `${prefix}g11en`
+									},
+									{
+										"title": "📚Science📚",
+										"description": "Displays The List Of Subject Science",
+										"rowId": `${prefix}g11sci`
+									},
+									{
+											"title": "📚Civic📚",
+										"description": "Displays The List Of Subject Civic",
+										"rowId": `${prefix}g11civi`
+										},
+										{
+											"title": "📚Gougraphy📚",
+										"description": "Displays The List Of Subject Gougraphy",
+										"rowId": `${prefix}g11gou`
+										},
+										{
+											"title": "📚P.T.S📚",
+										"description": "Displays The List Of Subject P.T S",
+										"rowId": `${prefix}g11pts`
+										},
+										{
+											"title": "📚Tamil📚",
+										"description": "Displays The List Of Subject Tamil",
+										"rowId": `${prefix}g11tami`
+										},
+										{
+											"title": "📚Health📚",
+										"description": "Displays The List Of Subject Health",
+										"rowId": `${prefix}g11heal`
+										},
+										{
+											"title": "📚I.C.T📚",
+										"description": "Displays The List Of Subject I.C.T",
+										"rowId": `${prefix}g11it`
+										},
+							{
+								"title": "Thanks For Queen Lora User",
+								"rows": [
+									{
+										"title": "👸Thanks To👸",
+										"description": "Displays The List Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+	    
+	case 'g13':
+nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Grade 6 Subject Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: `${global.footer}`,
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "📕Grade 13 Subjects📕",
+								"rows": [
+									{
+										"title": "Education Menu",
+										"description": "Displays The List Of Education Menu",
+										"rowId": `${prefix}listedu`
+									}
+								]
+							},
+							{
+								"title": "📗Subjects📗",
+								"rows": [
+									{
+										"title": "📚Sinhala📚",
+										"description": "Displays The List Of Subject Sinhala!",
+										"rowId": `${prefix}g13si`
+									},
+									{
+										"title": "📚Budhism📚",
+										"description": "Displays The List Of Subject Budhism",
+										"rowId": `${prefix}g13budi`
+										},
+									{
+										"title": "📚Mathematics📚",
+										"description": "Displays The List Of Subject Mathematics",
+										"rowId": `${prefix}g13math`
+									},
+									{
+										"title": "📚English📚",
+										"description": "Displays The List Of Subject English",
+										"rowId": `${prefix}g13en`
+									},
+									{
+										"title": "📚Science📚",
+										"description": "Displays The List Of Subject Science",
+										"rowId": `${prefix}g13sci`
+									},
+									{
+											"title": "📚Civic📚",
+										"description": "Displays The List Of Subject Civic",
+										"rowId": `${prefix}g13civi`
+										},
+										{
+											"title": "📚Gougraphy📚",
+										"description": "Displays The List Of Subject Gougraphy",
+										"rowId": `${prefix}g13gou`
+										},
+										{
+											"title": "📚P.T.S📚",
+										"description": "Displays The List Of Subject P.T S",
+										"rowId": `${prefix}g13pts`
+										},
+										{
+											"title": "📚Tamil📚",
+										"description": "Displays The List Of Subject Tamil",
+										"rowId": `${prefix}g13tami`
+										},
+										{
+											"title": "📚Health📚",
+										"description": "Displays The List Of Subject Health",
+										"rowId": `${prefix}g13heal`
+										},
+										{
+											"title": "📚I.C.T📚",
+										"description": "Displays The List Of Subject I.C.T",
+										"rowId": `${prefix}g13it`
+										},
+							{
+								"title": "Thanks For Queen Lora User",
+								"rows": [
+									{
+										"title": "👸Thanks To👸",
+										"description": "Displays The List Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break    
+			   
             default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return reply(mess.owner)
