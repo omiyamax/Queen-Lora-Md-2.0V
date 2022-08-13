@@ -1770,15 +1770,15 @@ break
                             }, {
                                 quickReplyButton: {
                                     displayText: '📖Menu📖',
-                                    id: 'menu'
+                                    id: 'allmenu'
                                 }
                             }, {
                                 quickReplyButton: {
                                     displayText: '👤Owner👤',
-                                    id: 'owner'
+                                    id: 'ownerinfo'
                                 }
                             }]
-                      let txt = `「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 HERE🎉 」\n\n${text}`
+                      let txt = `「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 🎉 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1804,12 +1804,12 @@ break
                             }, {
                                 quickReplyButton: {
                                     displayText: '📕Menu📕',
-                                    id: 'menu'
+                                    id: 'allmenu'
                                 }
                             }, {
                                 quickReplyButton: {
                                     displayText: '👤Owner👤',
-                                    id: 'owner'
+                                    id: 'ownerinfo'
                                 }
                             }]
                       let txt = `「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 HERE 🎉」\n\n${text}`
@@ -3385,18 +3385,31 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ┌┤✑  👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳🎉
 ││✑  👍🖐️!!
 │└───────────────┈ ⳹
-│ 「 BOT INFO 」
-│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-└┬──────────────┈ ⳹
-   │✑  Please Select The Button Below
-   └───────────────┈ ⳹`,
+│
+│
+│Welcome to 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 𝙱𝙾𝚃
+│
+│🪀Description : 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 𝙿𝚄𝙱𝙻𝙸𝙲
+│
+│🇱🇰┣━𝙏𝙝𝙞𝙨 𝙂𝙧𝙤𝙪𝙥 𝙥𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 ━━┫🇱🇰
+│
+│ 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 2.0𝚟 𝚆𝙰 𝙱𝙾𝚃
+│
+│〽️𝑻𝒚𝒑𝒆 (.menu) 𝒕𝒐 𝒈𝒆𝒕 𝒄𝒐𝒎𝒎𝒂𝒏𝒅 𝒍𝒊𝒔𝒕〽️
+│
+│🏷️𝗥𝗲𝗮𝗱 𝘁𝗵𝗲 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗺𝗮𝘀𝘀𝗲𝗴𝗲 𝗮𝗻𝗱 𝗳𝗼𝗹𝗹𝗼𝘄 𝘁𝗵𝗲 𝗿𝘂𝗹𝗲𝘀🏷️
+│
+│👸━❯𝚂𝚑𝚊𝚛𝚎 𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 𝚕𝚒𝚗𝚔 𝚊𝚗𝚍 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚞𝚜❮━🎁
+│
+│https://chat.whatsapp.com/LJLrrwfVr2Q7yIn6Hg1uyh
+│
+│🛎️╚═සොමියට වරෙන් පුතා අගුලු දාල නෑ දොරේ═╝🤣
+│
+│⛓🦈𝙲𝚈𝙱𝙴𝚁 𝚂𝙷𝙰𝚁𝙺🦈⛓
+│
+│🐬𝚂𝚃𝙰𝚈 𝚂𝙰𝙵𝙴🐬
+│
+└────────────────`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube🖥️',
@@ -3420,7 +3433,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }, {
                                 quickReplyButton: {
                                     displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
+                                    id: `${prefix}ownerinfo`
                                 }
                             }]
                         }
@@ -3436,19 +3449,19 @@ var unicorn = await getBuffer(picak+'Owner Info')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 👸𝚀𝚄𝙴𝙴𝙽 𝙻𝙾𝚁𝙰 𝙼𝙳 」━━⭓ 
 ┃╔═✪「 Owner Info 」
-┃*Owner Name* : ${global.ownername}
+┃Owner Name : ${global.ownername}
 ┃
-┃*Bot Name*   : ${global.botname}
+┃Bot Name   : ${global.botname}
 ┃
-┃*Coder*      : ${global.ownername}
+┃Coder      : ${global.ownername}
 ┃
-┃*Owner School*: ${global.myschool}
+┃Owner School: ${global.myschool}
 ┃
-┃*Location*   : ${global.region}
+┃Location   : ${global.region}
 ┃
-┃*Host Name*  : Queen Lora Md
-┃Thanks For Using *Queen Lora*
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube👍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "⚖️Location🛡️","text": `${region}`}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
+┃Host Name  : Queen Lora Md
+┃Thanks For Using Queen Lora
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube👍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "⚖️Location🛡️","id": `${region}`}},{"quickReplyButton": {"displayText": "👤Owner👤","id": '${prefix}owner'}}] )
 break
 		
             case 'list': case 'menu': {
@@ -3511,7 +3524,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
                 }
                 break
-                case 'command': {
+                case 'command': case 'cmdmenu':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
