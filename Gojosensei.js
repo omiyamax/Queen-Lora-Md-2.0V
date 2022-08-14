@@ -4303,7 +4303,7 @@ And Again Me (King 𝙾𝙼𝙸𝙽𝙳𝚄 𝙰𝙽𝙹𝙰𝙽𝙰 👑) 🐦 
 break
 
 	case 'listedu': case 'edux': case 'sledulist':
-nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+let = templete = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Edu Menu\n\n`,
@@ -4377,7 +4377,7 @@ nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
             break
 			   
 	case 'g6':
-nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+let = templete = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Grade 6 Subject Menu\n\n`,
@@ -4471,7 +4471,7 @@ nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
             break
 	    
 	case 'g7':
-nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+let = templete = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Grade 7 Subject Menu\n\n`,
@@ -4566,7 +4566,7 @@ nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
 	    
 	    
 	case 'g8':
-nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+let = templete = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Grade 8 Subject Menu\n\n`,
@@ -4660,7 +4660,7 @@ nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
             break
 	    
 	case 'g9':
-nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+let = templete = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Grade 9 Subject Menu\n\n`,
@@ -4754,7 +4754,7 @@ nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
             break
 	    
 	case 'g10':
-nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+let = templete = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Grade 10 Subject Menu\n\n`,
@@ -4848,7 +4848,7 @@ nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
             break
 	    
 	 case 'g11':
-nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+let = templete = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Grade 11 Subject Menu\n\n`,
@@ -4942,7 +4942,7 @@ nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
             break
 	    
 	case 'g13':
-nerateWAMessageFromContent(m.chat, proto.Message.fromObject({
+let = templete = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Grade 13 Subject Menu\n\n`,
