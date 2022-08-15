@@ -202,11 +202,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Queen-Lora-Md`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./loramedia/gojo.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Queen-Lora-Md`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./loramedia/lora.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Queen-Lora-Md`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./loramedia/gojo.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Queen-Lora-Md`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./loramedia/lora.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -3378,7 +3378,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./loramedia/gojo.jpg')},
+                            jpegThumbnail: fs.readFileSync('./loramedia/lora.jpg')},
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
@@ -3473,7 +3473,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./loramedia/gojo.jpg')}, 
+                            jpegThumbnail: fs.readFileSync('./loramedia/lora.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
 │「 Hi 👋 」
@@ -3650,7 +3650,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'lorabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V/loramedia/gojo.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V/loramedia/lora.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -3892,7 +3892,7 @@ case 'allmenu': case 'panel': case 'cmd': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./loramedia/gojo.jpg')},
+                            jpegThumbnail: fs.readFileSync('./loramedia/lora.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
