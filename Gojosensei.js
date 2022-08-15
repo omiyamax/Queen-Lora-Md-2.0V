@@ -202,11 +202,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Queen-Lora-Md`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Queen-Lora-Md`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./loramedia/gojo.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Queen-Lora-Md`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Queen-Lora-Md`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./loramedia/gojo.jpg`),"sourceUrl": "https://github.com/OMINDUANJANA/Queen-Lora-Md/blob/franxx/ZeroTwoMedia/image3.jpg"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -250,35 +250,35 @@ const reply = (teks) => {
         let gclink = (`https://chat.whatsapp.com/`+await GojoMdNx.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
-        if (isgclink) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Sent This Group Link❤️`)
-        if (isAdmins) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are An Admin Of The Group❤️`)
-        if (isCreator) return reply(`Group Is Installed With Anti-Link But I Won't Kick You 😉, Because You Are My Owner Hahahahah🤣😘, You Think I Will Betray You Huh🐦`)
+        if (isgclink) return reply(`Group එකට Antilink Install කර ඇත ඔබව පලවා හරින්නේ නැත. 😉, මෙය group එකේ ලින්කය නිසා❤️`)
+        if (isAdmins) return reply(`Group එකට Antilink Install කර ඇත ඔබව පලවා හරින්නේ නැත. 😉, ඔබ Group එකේ Admin නිසා වෙනි❤️`)
+        if (isCreator) return reply(`Group එකට Antilink Install කර ඇත ඔබව පලවා හරින්නේ නැත. 😉, ඔබ owner වන නිසා🤣😘, 🐦`)
         GojoMdNx.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
         }
 
-        //auto reply 
+        //auto reply ලොරා
         for (let anji of setik){
 				if (budy === anji){
-					result = fs.readFileSync(`./GojoMedia/sticker/${anji}.webp`)
+					result = fs.readFileSync(`./loramedia/sticker/${anji}.webp`)
 					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
 			}
 			for (let anju of vien){
 				if (budy === anju){
-					result = fs.readFileSync(`./GojoMedia/vn/${anju}.mp3`)
+					result = fs.readFileSync(`./loramedia/vn/${anju}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 			}
 			for (let anjh of imagi){
 				if (budy === anjh){
-					result = fs.readFileSync(`./GojoMedia/image/${anjh}.jpg`)
+					result = fs.readFileSync(`./loramedia/image/${anjh}.jpg`)
 					GojoMdNx.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
 			}
 					for (let anjh of videox){
 				if (budy === anjh){
-					result = fs.readFileSync(`./GojoMedia/vid/${anjh}.mp4`)
+					result = fs.readFileSync(`./loramedia/vid/${anjh}.mp4`)
 					GojoMdNx.sendMessage(m.chat, { video: result }, { quoted: m })
 					}
 				  }
@@ -3378,7 +3378,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
+                            jpegThumbnail: fs.readFileSync('./loramedia/gojo.jpg')},
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
@@ -3473,7 +3473,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
+                            jpegThumbnail: fs.readFileSync('./loramedia/gojo.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
 │「 Hi 👋 」
@@ -3650,7 +3650,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'lorabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V/GojoMedia/gojo.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://github.com/OMINDUANJANA/Queen-Lora-Md-2.0V/loramedia/gojo.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -3892,7 +3892,7 @@ case 'allmenu': case 'panel': case 'cmd': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
+                            jpegThumbnail: fs.readFileSync('./loramedia/gojo.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
